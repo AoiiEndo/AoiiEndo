@@ -17,9 +17,9 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AoiiEndo&show_icons=true&count_private=true&bg_color=0d1117&title_color=00ff00&text_color=ffffff&icon_color=00ff00&border_color=00ff00" height="180" alt="stats" />
+  <img src="https://github-readme-stats-pi-ten-21.vercel.app/api?username=AoiiEndo&show_icons=true&count_private=true&bg_color=0d1117&title_color=00ff00&text_color=ffffff&icon_color=00ff00&border_color=00ff00" height="180" alt="stats" />
   
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AoiiEndo&layout=compact&bg_color=0d1117&title_color=00ff00&text_color=ffffff&border_color=00ff00" height="180" alt="languages" />
+  <img src="https://github-readme-stats-pi-ten-21.vercel.app/api/top-langs/?username=AoiiEndo&layout=compact&bg_color=0d1117&title_color=00ff00&text_color=ffffff&border_color=00ff00" height="180" alt="languages" />
 </div>
 
 <br/>
