@@ -17,14 +17,13 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=AoiiEndo&show_icons=true&theme=dark&count_private=true" height="180" alt="aoiiendo stats" />
-  </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AoiiEndo&layout=compact&theme=dark&count_private=true" height="180" alt="aoiiendo languages" />
-  </a>
+  <img src="https://github-readme-stats.vercel.app/api?username=AoiiEndo&show_icons=true&count_private=true&bg_color=0d1117&title_color=00ff00&text_color=ffffff&icon_color=00ff00&border_color=00ff00" height="180" alt="stats" />
+  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AoiiEndo&layout=compact&bg_color=0d1117&title_color=00ff00&text_color=ffffff&border_color=00ff00" height="180" alt="languages" />
 </div>
 
+<br/>
+
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AoiiEndo&theme=dark&hide_border=true" alt="aoiiendo streak" />
+  <img src="https://streak-stats.demolab.com?user=AoiiEndo&bg_color=0d1117&dates=ffffff&ring=00ff00&fire=00ff00&currStreakLabel=00ff00&sideLabels=ffffff&border=00ff00" alt="streak" />
 </div>
