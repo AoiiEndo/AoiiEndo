@@ -1,0 +1,43 @@
+name: Generate Matrix Rain Graph
+
+on:
+  schedule:
+    # 毎日 UTC 0:00 (日本時間 9:00) に実行
+    - cron: "0 0 * * *"
+  workflow_dispatch: # 手動実行ボタンも有効化
+
+permissions:
+  contents: write # リポジトリへの書き込み権限を付与
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run generation script
+        env:
+          # USERNAMEはリポジトリの所有者名を使用
+          USERNAME: ${{ github.repository_owner }}
+          # GitHub標準のトークンを使用（特別な設定不要）
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python generate_matrix.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/github-matrix.svg
+          # 変更がある場合のみコミット
+          git commit -m "Update Matrix Rain Graph" || exit 0
+          git push
