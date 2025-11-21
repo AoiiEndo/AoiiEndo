@@ -30,7 +30,7 @@ jobs:
           # USERNAMEはリポジトリの所有者名を使用
           USERNAME: ${{ github.repository_owner }}
           # GitHub標準のトークンを使用（特別な設定不要）
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
         run: python generate_matrix.py
 
       - name: Commit and Push changes
