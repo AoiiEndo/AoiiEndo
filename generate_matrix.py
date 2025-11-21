@@ -55,10 +55,10 @@ def get_level_from_string(level_str):
     return mapping.get(level_str, 0)
 
 def get_color_opacity(level):
-    if level == 0: return 0.6, "#0D440D" 
-    if level == 1: return 0.7, "#1E6E1E"
-    if level == 2: return 0.8, "#2EA043"
-    if level == 3: return 0.9, "#3FB950"
+    if level == 0: return 0.8, "#0D440D" 
+    if level == 1: return 0.85, "#1E6E1E"
+    if level == 2: return 0.9, "#2EA043"
+    if level == 3: return 0.95, "#3FB950"
     if level == 4: return 1.0, "#00FF00"
     
     return 0.6, "#0D440D"
