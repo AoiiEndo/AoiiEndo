@@ -7,11 +7,11 @@ import string
 USERNAME = os.environ.get("USERNAME")
 TOKEN = os.environ.get("GITHUB_TOKEN") 
 
-# 文字セット: 英大文字と数字
+if not USERNAME: USERNAME = "AoiiEndo" # ローカルテスト用
+
 CHARS = string.ascii_uppercase + string.digits
 
 def get_contribution_data():
-    # トークンがない場合のダミーデータ
     if not TOKEN:
         print("Token not found. Using dummy data.")
         return [{"contributionDays": [{"contributionLevel": "NONE" if random.random() > 0.5 else "FIRST_QUARTILE"} for _ in range(7)]} for _ in range(53)]
@@ -55,8 +55,7 @@ def get_level_from_string(level_str):
     return mapping.get(level_str, 0)
 
 def get_color_opacity(level):
-    # Level 0の色を #0D440D だと暗すぎるため、#1a5c1a (少し明るい緑) に変更
-    # 不透明度は全て 1.0 に統一
+    # 不透明度は全て 1.0 (OpacityはCSSから排除済み)
     if level == 0: return 1.0, "#1a5c1a" 
     if level == 1: return 1.0, "#2ea043"
     if level == 2: return 1.0, "#3fb950"
@@ -70,15 +69,14 @@ def generate_svg():
         weeks_data = get_contribution_data()
     except Exception as e:
         print(e)
-        return # エラー時は中断
+        return
 
     width = 840
     height = 130
     cell_w = 15
     cell_h = 15
     
-    # 【重要修正】 @keyframes から opacity の行を削除しました
-    # これにより、常に文字はハッキリ表示され、光る時だけ白くなります
+    # 【重要修正】 CSS変数 (--matrix-color) を使用
     svg_content = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
     <style>
         @font-face {{ font-family: 'MatrixCode'; src: local('Consolas'), local('Courier New'), monospace; }}
@@ -89,13 +87,22 @@ def generate_svg():
             font-weight: bold;
             text-anchor: middle;
             dominant-baseline: middle;
+            /* 変数で定義された色を初期値として使う */
+            fill: var(--matrix-color);
             animation: rain-fall 3s infinite;
         }}
         @keyframes rain-fall {{
-            0%   {{ fill: inherit; text-shadow: none; }}
-            10%  {{ fill: #ffffff; text-shadow: 0 0 10px #ffffff; }} /* 白く発光 */
-            20%  {{ fill: inherit; text-shadow: none; }}
-            100% {{ fill: inherit; text-shadow: none; }}
+            /* 0% は元の色 (var(--matrix-color)) */
+            0%   {{ fill: var(--matrix-color); text-shadow: none; }}
+            
+            /* 10% で白く光る */
+            10%  {{ fill: #ffffff; text-shadow: 0 0 10px #ffffff; }}
+            
+            /* 20% で元の色に戻る (inheritではなく変数を使う！) */
+            20%  {{ fill: var(--matrix-color); text-shadow: none; }}
+            
+            /* 最後まで元の色を維持 */
+            100% {{ fill: var(--matrix-color); text-shadow: none; }}
         }}
     </style>
     <rect width="100%" height="100%" class="bg" />
@@ -113,9 +120,10 @@ def generate_svg():
             y = d_idx * cell_h + 20
             delay = (d_idx * 0.1) + week_offset
             
-            # style属性に opacity: 1.0 を明記
+            # 【重要修正】 style属性に --matrix-color: {color} を埋め込む
+            # これによりCSSアニメーション側でこの色が参照可能になる
             svg_content += f"""
-            <text x="{x}" y="{y}" fill="{color}" class="matrix-char" style="opacity: {opacity}; animation-delay: {delay}s;">
+            <text x="{x}" y="{y}" class="matrix-char" style="--matrix-color: {color}; animation-delay: {delay}s;">
                 {char}
             </text>
             """
