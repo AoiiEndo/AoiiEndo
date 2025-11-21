@@ -25,5 +25,5 @@
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats-seven-henna-85.vercel.app/?user=AoiiEndo&bg_color=0d1117&dates=ffffff&ring=00ff00&fire=00ff00&currStreakLabel=00ff00&sideLabels=ffffff&border=00ff00" alt="streak" />
+  <img src="https://github-readme-streak-stats-seven-henna-85.vercel.app/api/index.php?user=AoiiEndo&bg_color=0d1117&dates=ffffff&ring=00ff00&fire=00ff00&currStreakLabel=00ff00&sideLabels=ffffff&border=00ff00&hide_border=true" alt="streak" />
 </div>
