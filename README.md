@@ -21,9 +21,3 @@
   
   <img src="https://github-readme-stats-pi-ten-21.vercel.app/api/top-langs/?username=AoiiEndo&layout=compact&bg_color=0d1117&title_color=00ff00&text_color=ffffff&border_color=00ff00" height="180" alt="languages" />
 </div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats-k2bb.onrender.com/?user=AoiiEndo&bg_color=0d1117&dates=ffffff&ring=00ff00&fire=00ff00&currStreakLabel=00ff00&sideLabels=ffffff&border=00ff00&hide_border=true" alt="streak" />
-</div>
