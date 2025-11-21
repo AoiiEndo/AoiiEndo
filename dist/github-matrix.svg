@@ -8,1498 +8,1498 @@
             font-weight: bold;
             text-anchor: middle;
             dominant-baseline: middle;
-            animation: rain-fall 2s infinite;
+            animation: rain-fall 3s infinite;
         }
         @keyframes rain-fall {
-            0%   { opacity: 0.3; text-shadow: none; }
-            10%  { opacity: 1.0; text-shadow: 0 0 8px #00ff00; fill: #ffffff; }
-            20%  { opacity: 0.3; text-shadow: none; fill: inherit; }
-            100% { opacity: 0.3; text-shadow: none; }
+            0%   { fill: inherit; text-shadow: none; }
+            10%  { fill: #ffffff; text-shadow: 0 0 10px #ffffff; } /* 白く発光 */
+            20%  { fill: inherit; text-shadow: none; }
+            100% { fill: inherit; text-shadow: none; }
         }
     </style>
     <rect width="100%" height="100%" class="bg" />
     
-            <text x="15" y="20" fill="#0D440D" class="matrix-char" style="animation-delay: 1.0478591401749369s;">
+            <text x="15" y="20" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 1.9583340132497662s;">
                 0
             </text>
             
-            <text x="15" y="35" fill="#0D440D" class="matrix-char" style="animation-delay: 1.1978591401749368s;">
-                O
-            </text>
-            
-            <text x="15" y="50" fill="#0D440D" class="matrix-char" style="animation-delay: 1.347859140174937s;">
-                5
-            </text>
-            
-            <text x="15" y="65" fill="#0D440D" class="matrix-char" style="animation-delay: 1.4978591401749368s;">
-                O
-            </text>
-            
-            <text x="15" y="80" fill="#0D440D" class="matrix-char" style="animation-delay: 1.647859140174937s;">
-                N
-            </text>
-            
-            <text x="15" y="95" fill="#0D440D" class="matrix-char" style="animation-delay: 1.7978591401749369s;">
-                A
-            </text>
-            
-            <text x="15" y="110" fill="#0D440D" class="matrix-char" style="animation-delay: 1.9478591401749368s;">
-                1
-            </text>
-            
-            <text x="30" y="20" fill="#0D440D" class="matrix-char" style="animation-delay: 0.2603368254381322s;">
-                W
-            </text>
-            
-            <text x="30" y="35" fill="#0D440D" class="matrix-char" style="animation-delay: 0.4103368254381322s;">
-                6
-            </text>
-            
-            <text x="30" y="50" fill="#0D440D" class="matrix-char" style="animation-delay: 0.5603368254381322s;">
-                Z
-            </text>
-            
-            <text x="30" y="65" fill="#0D440D" class="matrix-char" style="animation-delay: 0.7103368254381321s;">
-                Y
-            </text>
-            
-            <text x="30" y="80" fill="#0D440D" class="matrix-char" style="animation-delay: 0.8603368254381322s;">
-                K
-            </text>
-            
-            <text x="30" y="95" fill="#0D440D" class="matrix-char" style="animation-delay: 1.0103368254381322s;">
-                7
-            </text>
-            
-            <text x="30" y="110" fill="#0D440D" class="matrix-char" style="animation-delay: 1.160336825438132s;">
-                5
-            </text>
-            
-            <text x="45" y="20" fill="#0D440D" class="matrix-char" style="animation-delay: 0.310160044430831s;">
-                U
-            </text>
-            
-            <text x="45" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.46016004443083103s;">
-                2
-            </text>
-            
-            <text x="45" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.610160044430831s;">
-                Z
-            </text>
-            
-            <text x="45" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.760160044430831s;">
-                W
-            </text>
-            
-            <text x="45" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.910160044430831s;">
-                3
-            </text>
-            
-            <text x="45" y="95" fill="#2EA043" class="matrix-char" style="animation-delay: 1.060160044430831s;">
-                W
-            </text>
-            
-            <text x="45" y="110" fill="#0D440D" class="matrix-char" style="animation-delay: 1.210160044430831s;">
-                R
-            </text>
-            
-            <text x="60" y="20" fill="#2EA043" class="matrix-char" style="animation-delay: 1.9105489119833805s;">
-                K
-            </text>
-            
-            <text x="60" y="35" fill="#2EA043" class="matrix-char" style="animation-delay: 2.0605489119833806s;">
-                Z
-            </text>
-            
-            <text x="60" y="50" fill="#2EA043" class="matrix-char" style="animation-delay: 2.2105489119833805s;">
-                R
-            </text>
-            
-            <text x="60" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.3605489119833805s;">
-                A
-            </text>
-            
-            <text x="60" y="80" fill="#3FB950" class="matrix-char" style="animation-delay: 2.5105489119833804s;">
-                T
-            </text>
-            
-            <text x="60" y="95" fill="#2EA043" class="matrix-char" style="animation-delay: 2.6605489119833807s;">
-                T
-            </text>
-            
-            <text x="60" y="110" fill="#2EA043" class="matrix-char" style="animation-delay: 2.81054891198338s;">
-                Y
-            </text>
-            
-            <text x="75" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.6359608434353528s;">
+            <text x="15" y="35" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 2.058334013249766s;">
                 4
             </text>
             
-            <text x="75" y="35" fill="#2EA043" class="matrix-char" style="animation-delay: 1.7859608434353527s;">
-                O
+            <text x="15" y="50" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 2.158334013249766s;">
+                I
             </text>
             
-            <text x="75" y="50" fill="#2EA043" class="matrix-char" style="animation-delay: 1.9359608434353528s;">
+            <text x="15" y="65" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 2.2583340132497662s;">
+                U
+            </text>
+            
+            <text x="15" y="80" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 2.3583340132497663s;">
+                4
+            </text>
+            
+            <text x="15" y="95" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 2.4583340132497664s;">
                 Q
             </text>
             
-            <text x="75" y="65" fill="#2EA043" class="matrix-char" style="animation-delay: 2.0859608434353527s;">
-                C
-            </text>
-            
-            <text x="75" y="80" fill="#2EA043" class="matrix-char" style="animation-delay: 2.2359608434353526s;">
-                6
-            </text>
-            
-            <text x="75" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.3859608434353525s;">
-                4
-            </text>
-            
-            <text x="75" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.535960843435353s;">
-                1
-            </text>
-            
-            <text x="90" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.3877101466113622s;">
-                1
-            </text>
-            
-            <text x="90" y="35" fill="#2EA043" class="matrix-char" style="animation-delay: 1.537710146611362s;">
-                P
-            </text>
-            
-            <text x="90" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.6877101466113622s;">
-                P
-            </text>
-            
-            <text x="90" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.8377101466113621s;">
-                6
-            </text>
-            
-            <text x="90" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.987710146611362s;">
-                J
-            </text>
-            
-            <text x="90" y="95" fill="#2EA043" class="matrix-char" style="animation-delay: 2.1377101466113624s;">
-                3
-            </text>
-            
-            <text x="90" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.287710146611362s;">
-                U
-            </text>
-            
-            <text x="105" y="20" fill="#2EA043" class="matrix-char" style="animation-delay: 0.8459867867505071s;">
-                2
-            </text>
-            
-            <text x="105" y="35" fill="#2EA043" class="matrix-char" style="animation-delay: 0.9959867867505071s;">
-                W
-            </text>
-            
-            <text x="105" y="50" fill="#2EA043" class="matrix-char" style="animation-delay: 1.1459867867505071s;">
-                R
-            </text>
-            
-            <text x="105" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.295986786750507s;">
-                F
-            </text>
-            
-            <text x="105" y="80" fill="#2EA043" class="matrix-char" style="animation-delay: 1.445986786750507s;">
-                U
-            </text>
-            
-            <text x="105" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.595986786750507s;">
-                P
-            </text>
-            
-            <text x="105" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.745986786750507s;">
-                L
-            </text>
-            
-            <text x="120" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.0352891445730932s;">
-                X
-            </text>
-            
-            <text x="120" y="35" fill="#0D440D" class="matrix-char" style="animation-delay: 1.185289144573093s;">
-                U
-            </text>
-            
-            <text x="120" y="50" fill="#0D440D" class="matrix-char" style="animation-delay: 1.3352891445730932s;">
-                E
-            </text>
-            
-            <text x="120" y="65" fill="#0D440D" class="matrix-char" style="animation-delay: 1.4852891445730931s;">
-                G
-            </text>
-            
-            <text x="120" y="80" fill="#0D440D" class="matrix-char" style="animation-delay: 1.6352891445730933s;">
-                J
-            </text>
-            
-            <text x="120" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.7852891445730932s;">
-                K
-            </text>
-            
-            <text x="120" y="110" fill="#2EA043" class="matrix-char" style="animation-delay: 1.935289144573093s;">
-                2
-            </text>
-            
-            <text x="135" y="20" fill="#3FB950" class="matrix-char" style="animation-delay: 1.40878872029304s;">
-                K
-            </text>
-            
-            <text x="135" y="35" fill="#00FF00" class="matrix-char" style="animation-delay: 1.55878872029304s;">
-                P
-            </text>
-            
-            <text x="135" y="50" fill="#00FF00" class="matrix-char" style="animation-delay: 1.70878872029304s;">
-                K
-            </text>
-            
-            <text x="135" y="65" fill="#3FB950" class="matrix-char" style="animation-delay: 1.85878872029304s;">
-                T
-            </text>
-            
-            <text x="135" y="80" fill="#00FF00" class="matrix-char" style="animation-delay: 2.00878872029304s;">
-                4
-            </text>
-            
-            <text x="135" y="95" fill="#00FF00" class="matrix-char" style="animation-delay: 2.15878872029304s;">
-                X
-            </text>
-            
-            <text x="135" y="110" fill="#3FB950" class="matrix-char" style="animation-delay: 2.30878872029304s;">
-                H
-            </text>
-            
-            <text x="150" y="20" fill="#3FB950" class="matrix-char" style="animation-delay: 0.8546131237009373s;">
-                E
-            </text>
-            
-            <text x="150" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.0046131237009372s;">
-                O
-            </text>
-            
-            <text x="150" y="50" fill="#2EA043" class="matrix-char" style="animation-delay: 1.1546131237009374s;">
-                O
-            </text>
-            
-            <text x="150" y="65" fill="#3FB950" class="matrix-char" style="animation-delay: 1.3046131237009373s;">
-                A
-            </text>
-            
-            <text x="150" y="80" fill="#3FB950" class="matrix-char" style="animation-delay: 1.4546131237009372s;">
-                J
-            </text>
-            
-            <text x="150" y="95" fill="#00FF00" class="matrix-char" style="animation-delay: 1.6046131237009373s;">
-                W
-            </text>
-            
-            <text x="150" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.7546131237009372s;">
-                9
-            </text>
-            
-            <text x="165" y="20" fill="#2EA043" class="matrix-char" style="animation-delay: 1.6486537574231581s;">
+            <text x="15" y="110" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 2.558334013249766s;">
                 B
             </text>
             
-            <text x="165" y="35" fill="#2EA043" class="matrix-char" style="animation-delay: 1.798653757423158s;">
-                E
-            </text>
-            
-            <text x="165" y="50" fill="#2EA043" class="matrix-char" style="animation-delay: 1.9486537574231582s;">
+            <text x="30" y="20" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 0.9674301976938635s;">
                 1
             </text>
             
-            <text x="165" y="65" fill="#2EA043" class="matrix-char" style="animation-delay: 2.098653757423158s;">
-                9
+            <text x="30" y="35" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 1.0674301976938636s;">
+                2
             </text>
             
-            <text x="165" y="80" fill="#2EA043" class="matrix-char" style="animation-delay: 2.248653757423158s;">
-                G
+            <text x="30" y="50" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 1.1674301976938635s;">
+                8
             </text>
             
-            <text x="165" y="95" fill="#3FB950" class="matrix-char" style="animation-delay: 2.3986537574231583s;">
-                U
+            <text x="30" y="65" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 1.2674301976938636s;">
+                W
             </text>
             
-            <text x="165" y="110" fill="#2EA043" class="matrix-char" style="animation-delay: 2.548653757423158s;">
-                E
-            </text>
-            
-            <text x="180" y="20" fill="#2EA043" class="matrix-char" style="animation-delay: 1.145732750662821s;">
-                Z
-            </text>
-            
-            <text x="180" y="35" fill="#2EA043" class="matrix-char" style="animation-delay: 1.295732750662821s;">
+            <text x="30" y="80" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 1.3674301976938636s;">
                 5
             </text>
             
-            <text x="180" y="50" fill="#2EA043" class="matrix-char" style="animation-delay: 1.445732750662821s;">
+            <text x="30" y="95" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 1.4674301976938635s;">
+                T
+            </text>
+            
+            <text x="30" y="110" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 1.5674301976938636s;">
+                O
+            </text>
+            
+            <text x="45" y="20" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 1.911479614434387s;">
                 B
             </text>
             
-            <text x="180" y="65" fill="#2EA043" class="matrix-char" style="animation-delay: 1.595732750662821s;">
+            <text x="45" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.011479614434387s;">
+                W
+            </text>
+            
+            <text x="45" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.111479614434387s;">
                 O
             </text>
             
-            <text x="180" y="80" fill="#2EA043" class="matrix-char" style="animation-delay: 1.745732750662821s;">
-                2
+            <text x="45" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.211479614434387s;">
+                3
             </text>
             
-            <text x="180" y="95" fill="#3FB950" class="matrix-char" style="animation-delay: 1.895732750662821s;">
-                D
+            <text x="45" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.311479614434387s;">
+                E
             </text>
             
-            <text x="180" y="110" fill="#2EA043" class="matrix-char" style="animation-delay: 2.045732750662821s;">
-                6
+            <text x="45" y="95" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 2.411479614434387s;">
+                V
             </text>
             
-            <text x="195" y="20" fill="#2EA043" class="matrix-char" style="animation-delay: 1.5444252533402996s;">
-                Z
+            <text x="45" y="110" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 2.5114796144343874s;">
+                3
             </text>
             
-            <text x="195" y="35" fill="#00FF00" class="matrix-char" style="animation-delay: 1.6944252533402995s;">
-                F
-            </text>
-            
-            <text x="195" y="50" fill="#2EA043" class="matrix-char" style="animation-delay: 1.8444252533402996s;">
-                O
-            </text>
-            
-            <text x="195" y="65" fill="#3FB950" class="matrix-char" style="animation-delay: 1.9944252533402995s;">
-                G
-            </text>
-            
-            <text x="195" y="80" fill="#3FB950" class="matrix-char" style="animation-delay: 2.1444252533402994s;">
-                X
-            </text>
-            
-            <text x="195" y="95" fill="#3FB950" class="matrix-char" style="animation-delay: 2.2944252533402993s;">
-                6
-            </text>
-            
-            <text x="195" y="110" fill="#2EA043" class="matrix-char" style="animation-delay: 2.4444252533402997s;">
-                7
-            </text>
-            
-            <text x="210" y="20" fill="#2EA043" class="matrix-char" style="animation-delay: 0.4734006645636697s;">
-                Z
-            </text>
-            
-            <text x="210" y="35" fill="#2EA043" class="matrix-char" style="animation-delay: 0.6234006645636697s;">
-                L
-            </text>
-            
-            <text x="210" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.7734006645636697s;">
-                R
-            </text>
-            
-            <text x="210" y="65" fill="#2EA043" class="matrix-char" style="animation-delay: 0.9234006645636696s;">
-                Z
-            </text>
-            
-            <text x="210" y="80" fill="#3FB950" class="matrix-char" style="animation-delay: 1.0734006645636698s;">
-                7
-            </text>
-            
-            <text x="210" y="95" fill="#3FB950" class="matrix-char" style="animation-delay: 1.2234006645636697s;">
-                X
-            </text>
-            
-            <text x="210" y="110" fill="#2EA043" class="matrix-char" style="animation-delay: 1.3734006645636696s;">
-                Y
-            </text>
-            
-            <text x="225" y="20" fill="#2EA043" class="matrix-char" style="animation-delay: 0.8395556357272178s;">
-                G
-            </text>
-            
-            <text x="225" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.9895556357272178s;">
-                F
-            </text>
-            
-            <text x="225" y="50" fill="#2EA043" class="matrix-char" style="animation-delay: 1.1395556357272179s;">
-                M
-            </text>
-            
-            <text x="225" y="65" fill="#3FB950" class="matrix-char" style="animation-delay: 1.2895556357272178s;">
-                R
-            </text>
-            
-            <text x="225" y="80" fill="#2EA043" class="matrix-char" style="animation-delay: 1.439555635727218s;">
-                1
-            </text>
-            
-            <text x="225" y="95" fill="#00FF00" class="matrix-char" style="animation-delay: 1.5895556357272178s;">
+            <text x="60" y="20" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.40193414828005647s;">
                 K
             </text>
             
-            <text x="225" y="110" fill="#2EA043" class="matrix-char" style="animation-delay: 1.7395556357272177s;">
-                E
+            <text x="60" y="35" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.5019341482800564s;">
+                A
             </text>
             
-            <text x="240" y="20" fill="#3FB950" class="matrix-char" style="animation-delay: 1.907693591671578s;">
-                9
-            </text>
-            
-            <text x="240" y="35" fill="#3FB950" class="matrix-char" style="animation-delay: 2.057693591671578s;">
+            <text x="60" y="50" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.6019341482800564s;">
                 N
             </text>
             
-            <text x="240" y="50" fill="#3FB950" class="matrix-char" style="animation-delay: 2.207693591671578s;">
-                9
+            <text x="60" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.7019341482800565s;">
+                C
             </text>
             
-            <text x="240" y="65" fill="#2EA043" class="matrix-char" style="animation-delay: 2.3576935916715778s;">
-                E
+            <text x="60" y="80" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 0.8019341482800565s;">
+                5
             </text>
             
-            <text x="240" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.507693591671578s;">
+            <text x="60" y="95" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.9019341482800565s;">
+                G
+            </text>
+            
+            <text x="60" y="110" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.0019341482800566s;">
+                N
+            </text>
+            
+            <text x="75" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.873504833780892s;">
+                Y
+            </text>
+            
+            <text x="75" y="35" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.973504833780892s;">
+                P
+            </text>
+            
+            <text x="75" y="50" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 2.073504833780892s;">
                 D
             </text>
             
-            <text x="240" y="95" fill="#00FF00" class="matrix-char" style="animation-delay: 2.657693591671578s;">
+            <text x="75" y="65" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 2.1735048337808918s;">
+                H
+            </text>
+            
+            <text x="75" y="80" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 2.273504833780892s;">
                 S
             </text>
             
-            <text x="240" y="110" fill="#00FF00" class="matrix-char" style="animation-delay: 2.807693591671578s;">
-                Q
+            <text x="75" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.373504833780892s;">
+                F
             </text>
             
-            <text x="255" y="20" fill="#00FF00" class="matrix-char" style="animation-delay: 0.3865190275761421s;">
+            <text x="75" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.473504833780892s;">
                 T
             </text>
             
-            <text x="255" y="35" fill="#3FB950" class="matrix-char" style="animation-delay: 0.5365190275761421s;">
-                9
-            </text>
-            
-            <text x="255" y="50" fill="#2EA043" class="matrix-char" style="animation-delay: 0.6865190275761421s;">
+            <text x="90" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.6218831638097215s;">
                 G
             </text>
             
-            <text x="255" y="65" fill="#2EA043" class="matrix-char" style="animation-delay: 0.836519027576142s;">
+            <text x="90" y="35" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.7218831638097215s;">
+                1
+            </text>
+            
+            <text x="90" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.8218831638097215s;">
+                8
+            </text>
+            
+            <text x="90" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.9218831638097216s;">
+                Y
+            </text>
+            
+            <text x="90" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.0218831638097217s;">
+                S
+            </text>
+            
+            <text x="90" y="95" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.1218831638097215s;">
+                N
+            </text>
+            
+            <text x="90" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.2218831638097216s;">
+                9
+            </text>
+            
+            <text x="105" y="20" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.7221422418039725s;">
+                F
+            </text>
+            
+            <text x="105" y="35" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.8221422418039726s;">
+                O
+            </text>
+            
+            <text x="105" y="50" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.9221422418039724s;">
                 V
             </text>
             
-            <text x="255" y="80" fill="#00FF00" class="matrix-char" style="animation-delay: 0.9865190275761421s;">
+            <text x="105" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.0221422418039725s;">
+                5
+            </text>
+            
+            <text x="105" y="80" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 2.1221422418039726s;">
+                D
+            </text>
+            
+            <text x="105" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.2221422418039722s;">
+                D
+            </text>
+            
+            <text x="105" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.3221422418039728s;">
+                8
+            </text>
+            
+            <text x="120" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.581144893862544s;">
+                U
+            </text>
+            
+            <text x="120" y="35" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 1.6811448938625442s;">
+                H
+            </text>
+            
+            <text x="120" y="50" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 1.781144893862544s;">
+                9
+            </text>
+            
+            <text x="120" y="65" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 1.8811448938625441s;">
+                Q
+            </text>
+            
+            <text x="120" y="80" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 1.981144893862544s;">
+                Q
+            </text>
+            
+            <text x="120" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.081144893862544s;">
+                2
+            </text>
+            
+            <text x="120" y="110" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 2.181144893862544s;">
+                K
+            </text>
+            
+            <text x="135" y="20" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 1.742458172764269s;">
+                Q
+            </text>
+            
+            <text x="135" y="35" fill="#ffffff" class="matrix-char" style="opacity: 1.0; animation-delay: 1.842458172764269s;">
+                V
+            </text>
+            
+            <text x="135" y="50" fill="#ffffff" class="matrix-char" style="opacity: 1.0; animation-delay: 1.942458172764269s;">
+                D
+            </text>
+            
+            <text x="135" y="65" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 2.042458172764269s;">
+                N
+            </text>
+            
+            <text x="135" y="80" fill="#ffffff" class="matrix-char" style="opacity: 1.0; animation-delay: 2.142458172764269s;">
+                B
+            </text>
+            
+            <text x="135" y="95" fill="#ffffff" class="matrix-char" style="opacity: 1.0; animation-delay: 2.2424581727642687s;">
+                V
+            </text>
+            
+            <text x="135" y="110" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 2.3424581727642693s;">
+                2
+            </text>
+            
+            <text x="150" y="20" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 0.26568822870446196s;">
+                S
+            </text>
+            
+            <text x="150" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.36568822870446194s;">
+                L
+            </text>
+            
+            <text x="150" y="50" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.46568822870446197s;">
+                T
+            </text>
+            
+            <text x="150" y="65" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 0.565688228704462s;">
+                T
+            </text>
+            
+            <text x="150" y="80" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 0.665688228704462s;">
+                C
+            </text>
+            
+            <text x="150" y="95" fill="#ffffff" class="matrix-char" style="opacity: 1.0; animation-delay: 0.765688228704462s;">
+                J
+            </text>
+            
+            <text x="150" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.865688228704462s;">
+                2
+            </text>
+            
+            <text x="165" y="20" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.8515675804314684s;">
+                Y
+            </text>
+            
+            <text x="165" y="35" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.9515675804314685s;">
+                Z
+            </text>
+            
+            <text x="165" y="50" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 2.0515675804314686s;">
+                Q
+            </text>
+            
+            <text x="165" y="65" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 2.1515675804314682s;">
                 A
             </text>
             
-            <text x="255" y="95" fill="#3FB950" class="matrix-char" style="animation-delay: 1.136519027576142s;">
-                7
-            </text>
-            
-            <text x="255" y="110" fill="#3FB950" class="matrix-char" style="animation-delay: 1.286519027576142s;">
-                U
-            </text>
-            
-            <text x="270" y="20" fill="#2EA043" class="matrix-char" style="animation-delay: 1.8284083489692442s;">
-                D
-            </text>
-            
-            <text x="270" y="35" fill="#2EA043" class="matrix-char" style="animation-delay: 1.9784083489692441s;">
-                0
-            </text>
-            
-            <text x="270" y="50" fill="#2EA043" class="matrix-char" style="animation-delay: 2.128408348969244s;">
-                B
-            </text>
-            
-            <text x="270" y="65" fill="#3FB950" class="matrix-char" style="animation-delay: 2.2784083489692444s;">
-                7
-            </text>
-            
-            <text x="270" y="80" fill="#3FB950" class="matrix-char" style="animation-delay: 2.4284083489692443s;">
-                8
-            </text>
-            
-            <text x="270" y="95" fill="#3FB950" class="matrix-char" style="animation-delay: 2.578408348969244s;">
-                F
-            </text>
-            
-            <text x="270" y="110" fill="#00FF00" class="matrix-char" style="animation-delay: 2.728408348969244s;">
-                G
-            </text>
-            
-            <text x="285" y="20" fill="#3FB950" class="matrix-char" style="animation-delay: 1.1075255534562125s;">
-                X
-            </text>
-            
-            <text x="285" y="35" fill="#2EA043" class="matrix-char" style="animation-delay: 1.2575255534562124s;">
-                Q
-            </text>
-            
-            <text x="285" y="50" fill="#2EA043" class="matrix-char" style="animation-delay: 1.4075255534562126s;">
-                P
-            </text>
-            
-            <text x="285" y="65" fill="#2EA043" class="matrix-char" style="animation-delay: 1.5575255534562125s;">
-                2
-            </text>
-            
-            <text x="285" y="80" fill="#2EA043" class="matrix-char" style="animation-delay: 1.7075255534562124s;">
-                5
-            </text>
-            
-            <text x="285" y="95" fill="#2EA043" class="matrix-char" style="animation-delay: 1.8575255534562125s;">
+            <text x="165" y="80" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 2.2515675804314683s;">
                 9
             </text>
             
-            <text x="285" y="110" fill="#3FB950" class="matrix-char" style="animation-delay: 2.0075255534562126s;">
-                1
-            </text>
-            
-            <text x="300" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.7113832549224954s;">
+            <text x="165" y="95" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 2.3515675804314684s;">
                 C
             </text>
             
-            <text x="300" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.8613832549224955s;">
-                8
-            </text>
-            
-            <text x="300" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.0113832549224955s;">
-                I
-            </text>
-            
-            <text x="300" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.1613832549224954s;">
-                Y
-            </text>
-            
-            <text x="300" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.3113832549224953s;">
-                D
-            </text>
-            
-            <text x="300" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.4613832549224954s;">
-                I
-            </text>
-            
-            <text x="300" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.6113832549224953s;">
-                P
-            </text>
-            
-            <text x="315" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.2006429354972299s;">
-                0
-            </text>
-            
-            <text x="315" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.3506429354972299s;">
-                V
-            </text>
-            
-            <text x="315" y="50" fill="#2EA043" class="matrix-char" style="animation-delay: 0.5006429354972299s;">
+            <text x="165" y="110" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 2.4515675804314685s;">
                 M
             </text>
             
-            <text x="315" y="65" fill="#2EA043" class="matrix-char" style="animation-delay: 0.6506429354972298s;">
-                2
-            </text>
-            
-            <text x="315" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.8006429354972299s;">
-                K
-            </text>
-            
-            <text x="315" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.9506429354972299s;">
-                F
-            </text>
-            
-            <text x="315" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.1006429354972298s;">
+            <text x="180" y="20" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.8534078867785235s;">
                 3
             </text>
             
-            <text x="330" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.1935929158324743s;">
-                2
-            </text>
-            
-            <text x="330" y="35" fill="#2EA043" class="matrix-char" style="animation-delay: 0.3435929158324743s;">
-                M
-            </text>
-            
-            <text x="330" y="50" fill="#2EA043" class="matrix-char" style="animation-delay: 0.4935929158324743s;">
-                Z
-            </text>
-            
-            <text x="330" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.6435929158324742s;">
-                O
-            </text>
-            
-            <text x="330" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.7935929158324743s;">
-                M
-            </text>
-            
-            <text x="330" y="95" fill="#2EA043" class="matrix-char" style="animation-delay: 0.9435929158324743s;">
-                K
-            </text>
-            
-            <text x="330" y="110" fill="#3FB950" class="matrix-char" style="animation-delay: 1.0935929158324742s;">
+            <text x="180" y="35" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.9534078867785236s;">
                 I
             </text>
             
-            <text x="345" y="20" fill="#2EA043" class="matrix-char" style="animation-delay: 1.8248264549430735s;">
-                L
-            </text>
-            
-            <text x="345" y="35" fill="#3FB950" class="matrix-char" style="animation-delay: 1.9748264549430734s;">
-                O
-            </text>
-            
-            <text x="345" y="50" fill="#2EA043" class="matrix-char" style="animation-delay: 2.1248264549430735s;">
-                8
-            </text>
-            
-            <text x="345" y="65" fill="#3FB950" class="matrix-char" style="animation-delay: 2.2748264549430735s;">
-                N
-            </text>
-            
-            <text x="345" y="80" fill="#2EA043" class="matrix-char" style="animation-delay: 2.4248264549430734s;">
-                Q
-            </text>
-            
-            <text x="345" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.5748264549430733s;">
-                E
-            </text>
-            
-            <text x="345" y="110" fill="#00FF00" class="matrix-char" style="animation-delay: 2.7248264549430736s;">
-                N
-            </text>
-            
-            <text x="360" y="20" fill="#3FB950" class="matrix-char" style="animation-delay: 0.32469477304436367s;">
-                E
-            </text>
-            
-            <text x="360" y="35" fill="#2EA043" class="matrix-char" style="animation-delay: 0.4746947730443637s;">
-                8
-            </text>
-            
-            <text x="360" y="50" fill="#3FB950" class="matrix-char" style="animation-delay: 0.6246947730443637s;">
-                V
-            </text>
-            
-            <text x="360" y="65" fill="#2EA043" class="matrix-char" style="animation-delay: 0.7746947730443636s;">
-                U
-            </text>
-            
-            <text x="360" y="80" fill="#2EA043" class="matrix-char" style="animation-delay: 0.9246947730443636s;">
-                K
-            </text>
-            
-            <text x="360" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.0746947730443637s;">
-                U
-            </text>
-            
-            <text x="360" y="110" fill="#2EA043" class="matrix-char" style="animation-delay: 1.2246947730443636s;">
-                K
-            </text>
-            
-            <text x="375" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.0900101673543374s;">
-                I
-            </text>
-            
-            <text x="375" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.2400101673543373s;">
-                L
-            </text>
-            
-            <text x="375" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.3900101673543375s;">
-                U
-            </text>
-            
-            <text x="375" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.5400101673543374s;">
-                9
-            </text>
-            
-            <text x="375" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.6900101673543375s;">
-                3
-            </text>
-            
-            <text x="375" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.8400101673543374s;">
-                X
-            </text>
-            
-            <text x="375" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.9900101673543373s;">
-                N
-            </text>
-            
-            <text x="390" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.8793589616626234s;">
-                R
-            </text>
-            
-            <text x="390" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.0293589616626233s;">
-                X
-            </text>
-            
-            <text x="390" y="50" fill="#2EA043" class="matrix-char" style="animation-delay: 1.1793589616626234s;">
-                9
-            </text>
-            
-            <text x="390" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.3293589616626234s;">
-                B
-            </text>
-            
-            <text x="390" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.4793589616626233s;">
-                9
-            </text>
-            
-            <text x="390" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.6293589616626234s;">
-                W
-            </text>
-            
-            <text x="390" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.7793589616626233s;">
-                N
-            </text>
-            
-            <text x="405" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.2354073754509955s;">
-                H
-            </text>
-            
-            <text x="405" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.3854073754509955s;">
-                3
-            </text>
-            
-            <text x="405" y="50" fill="#2EA043" class="matrix-char" style="animation-delay: 1.5354073754509956s;">
-                G
-            </text>
-            
-            <text x="405" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.6854073754509955s;">
-                O
-            </text>
-            
-            <text x="405" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.8354073754509956s;">
-                E
-            </text>
-            
-            <text x="405" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.9854073754509955s;">
+            <text x="180" y="50" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 2.0534078867785235s;">
                 6
             </text>
             
-            <text x="405" y="110" fill="#2EA043" class="matrix-char" style="animation-delay: 2.1354073754509955s;">
-                X
+            <text x="180" y="65" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 2.1534078867785236s;">
+                9
             </text>
             
-            <text x="420" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.6921669108702124s;">
+            <text x="180" y="80" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 2.2534078867785237s;">
+                6
+            </text>
+            
+            <text x="180" y="95" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 2.3534078867785233s;">
+                Z
+            </text>
+            
+            <text x="180" y="110" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 2.453407886778524s;">
+                K
+            </text>
+            
+            <text x="195" y="20" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.22000052661957836s;">
+                H
+            </text>
+            
+            <text x="195" y="35" fill="#ffffff" class="matrix-char" style="opacity: 1.0; animation-delay: 0.32000052661957834s;">
+                H
+            </text>
+            
+            <text x="195" y="50" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.4200005266195784s;">
+                7
+            </text>
+            
+            <text x="195" y="65" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 0.5200005266195784s;">
+                5
+            </text>
+            
+            <text x="195" y="80" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 0.6200005266195784s;">
+                W
+            </text>
+            
+            <text x="195" y="95" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 0.7200005266195784s;">
+                Q
+            </text>
+            
+            <text x="195" y="110" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.8200005266195785s;">
+                1
+            </text>
+            
+            <text x="210" y="20" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.3121916609641384s;">
+                W
+            </text>
+            
+            <text x="210" y="35" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.4121916609641385s;">
+                8
+            </text>
+            
+            <text x="210" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.5121916609641384s;">
+                O
+            </text>
+            
+            <text x="210" y="65" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.6121916609641385s;">
+                N
+            </text>
+            
+            <text x="210" y="80" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 1.7121916609641383s;">
+                Z
+            </text>
+            
+            <text x="210" y="95" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 1.8121916609641384s;">
                 U
             </text>
             
-            <text x="420" y="35" fill="#2EA043" class="matrix-char" style="animation-delay: 1.8421669108702123s;">
+            <text x="210" y="110" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.9121916609641385s;">
                 A
             </text>
             
-            <text x="420" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.9921669108702125s;">
-                Q
-            </text>
-            
-            <text x="420" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.1421669108702126s;">
-                H
-            </text>
-            
-            <text x="420" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.2921669108702125s;">
-                F
-            </text>
-            
-            <text x="420" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.4421669108702124s;">
-                4
-            </text>
-            
-            <text x="420" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.5921669108702123s;">
-                Z
-            </text>
-            
-            <text x="435" y="20" fill="#2EA043" class="matrix-char" style="animation-delay: 1.3358768421969325s;">
-                F
-            </text>
-            
-            <text x="435" y="35" fill="#2EA043" class="matrix-char" style="animation-delay: 1.4858768421969324s;">
-                G
-            </text>
-            
-            <text x="435" y="50" fill="#3FB950" class="matrix-char" style="animation-delay: 1.6358768421969325s;">
+            <text x="225" y="20" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.9878115527726397s;">
                 O
             </text>
             
-            <text x="435" y="65" fill="#2EA043" class="matrix-char" style="animation-delay: 1.7858768421969324s;">
-                J
+            <text x="225" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.0878115527726395s;">
+                Q
             </text>
             
-            <text x="435" y="80" fill="#2EA043" class="matrix-char" style="animation-delay: 1.9358768421969326s;">
-                S
+            <text x="225" y="50" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 2.1878115527726396s;">
+                4
             </text>
             
-            <text x="435" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.0858768421969325s;">
-                V
-            </text>
-            
-            <text x="435" y="110" fill="#2EA043" class="matrix-char" style="animation-delay: 2.2358768421969324s;">
-                J
-            </text>
-            
-            <text x="450" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.571712182517317s;">
-                3
-            </text>
-            
-            <text x="450" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.721712182517317s;">
-                1
-            </text>
-            
-            <text x="450" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.871712182517317s;">
-                8
-            </text>
-            
-            <text x="450" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.0217121825173168s;">
-                H
-            </text>
-            
-            <text x="450" y="80" fill="#3FB950" class="matrix-char" style="animation-delay: 2.171712182517317s;">
-                Y
-            </text>
-            
-            <text x="450" y="95" fill="#2EA043" class="matrix-char" style="animation-delay: 2.321712182517317s;">
-                K
-            </text>
-            
-            <text x="450" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.471712182517317s;">
-                U
-            </text>
-            
-            <text x="465" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.4474768944738745s;">
-                7
-            </text>
-            
-            <text x="465" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.5974768944738745s;">
-                L
-            </text>
-            
-            <text x="465" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.7474768944738746s;">
-                P
-            </text>
-            
-            <text x="465" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.8974768944738745s;">
-                1
-            </text>
-            
-            <text x="465" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.0474768944738746s;">
+            <text x="225" y="65" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 2.2878115527726397s;">
                 X
             </text>
             
-            <text x="465" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.1974768944738745s;">
-                C
-            </text>
-            
-            <text x="465" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.3474768944738744s;">
-                7
-            </text>
-            
-            <text x="480" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.6414844169056895s;">
-                G
-            </text>
-            
-            <text x="480" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.7914844169056894s;">
-                L
-            </text>
-            
-            <text x="480" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.9414844169056895s;">
-                E
-            </text>
-            
-            <text x="480" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.0914844169056894s;">
-                N
-            </text>
-            
-            <text x="480" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.2414844169056893s;">
-                1
-            </text>
-            
-            <text x="480" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.3914844169056897s;">
-                G
-            </text>
-            
-            <text x="480" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.541484416905689s;">
-                G
-            </text>
-            
-            <text x="495" y="20" fill="#2EA043" class="matrix-char" style="animation-delay: 1.778718526482281s;">
-                F
-            </text>
-            
-            <text x="495" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.9287185264822808s;">
-                V
-            </text>
-            
-            <text x="495" y="50" fill="#2EA043" class="matrix-char" style="animation-delay: 2.0787185264822807s;">
-                4
-            </text>
-            
-            <text x="495" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.2287185264822806s;">
-                7
-            </text>
-            
-            <text x="495" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.378718526482281s;">
-                3
-            </text>
-            
-            <text x="495" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.528718526482281s;">
-                I
-            </text>
-            
-            <text x="495" y="110" fill="#2EA043" class="matrix-char" style="animation-delay: 2.678718526482281s;">
-                K
-            </text>
-            
-            <text x="510" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.9800123639554768s;">
-                B
-            </text>
-            
-            <text x="510" y="35" fill="#2EA043" class="matrix-char" style="animation-delay: 1.1300123639554767s;">
-                O
-            </text>
-            
-            <text x="510" y="50" fill="#2EA043" class="matrix-char" style="animation-delay: 1.2800123639554768s;">
-                K
-            </text>
-            
-            <text x="510" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.4300123639554767s;">
-                G
-            </text>
-            
-            <text x="510" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.5800123639554768s;">
-                O
-            </text>
-            
-            <text x="510" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.7300123639554768s;">
-                M
-            </text>
-            
-            <text x="510" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.8800123639554767s;">
-                N
-            </text>
-            
-            <text x="525" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.9713487241293888s;">
-                I
-            </text>
-            
-            <text x="525" y="35" fill="#0D440D" class="matrix-char" style="animation-delay: 2.1213487241293887s;">
-                L
-            </text>
-            
-            <text x="525" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.2713487241293886s;">
+            <text x="225" y="80" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 2.38781155277264s;">
                 Q
             </text>
             
-            <text x="525" y="65" fill="#2EA043" class="matrix-char" style="animation-delay: 2.4213487241293885s;">
-                R
+            <text x="225" y="95" fill="#ffffff" class="matrix-char" style="opacity: 1.0; animation-delay: 2.48781155277264s;">
+                K
             </text>
             
-            <text x="525" y="80" fill="#0D440D" class="matrix-char" style="animation-delay: 2.571348724129389s;">
-                9
+            <text x="225" y="110" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 2.5878115527726395s;">
+                M
             </text>
             
-            <text x="525" y="95" fill="#0D440D" class="matrix-char" style="animation-delay: 2.7213487241293888s;">
-                D
+            <text x="240" y="20" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 0.7919908271280343s;">
+                4
             </text>
             
-            <text x="525" y="110" fill="#2EA043" class="matrix-char" style="animation-delay: 2.8713487241293887s;">
-                2
+            <text x="240" y="35" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 0.8919908271280342s;">
+                M
             </text>
             
-            <text x="540" y="20" fill="#0D440D" class="matrix-char" style="animation-delay: 1.9595105330543652s;">
-                Z
+            <text x="240" y="50" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 0.9919908271280342s;">
+                X
             </text>
             
-            <text x="540" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.1095105330543653s;">
-                1
-            </text>
-            
-            <text x="540" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.2595105330543652s;">
-                7
-            </text>
-            
-            <text x="540" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.409510533054365s;">
-                5
-            </text>
-            
-            <text x="540" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.559510533054365s;">
+            <text x="240" y="65" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.0919908271280343s;">
                 8
             </text>
             
-            <text x="540" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.709510533054365s;">
-                E
-            </text>
-            
-            <text x="540" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.8595105330543653s;">
-                I
-            </text>
-            
-            <text x="555" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.8050833936114785s;">
+            <text x="240" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.1919908271280342s;">
                 6
             </text>
             
-            <text x="555" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.9550833936114785s;">
-                Z
-            </text>
-            
-            <text x="555" y="50" fill="#2EA043" class="matrix-char" style="animation-delay: 1.1050833936114786s;">
-                4
-            </text>
-            
-            <text x="555" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.2550833936114785s;">
-                U
-            </text>
-            
-            <text x="555" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.4050833936114784s;">
-                M
-            </text>
-            
-            <text x="555" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.5550833936114785s;">
-                0
-            </text>
-            
-            <text x="555" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.7050833936114784s;">
-                Y
-            </text>
-            
-            <text x="570" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.6145993434834303s;">
-                5
-            </text>
-            
-            <text x="570" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.7645993434834303s;">
-                J
-            </text>
-            
-            <text x="570" y="50" fill="#0D440D" class="matrix-char" style="animation-delay: 0.9145993434834303s;">
-                U
-            </text>
-            
-            <text x="570" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.0645993434834302s;">
-                B
-            </text>
-            
-            <text x="570" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.2145993434834303s;">
-                Z
-            </text>
-            
-            <text x="570" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.3645993434834303s;">
-                N
-            </text>
-            
-            <text x="570" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.5145993434834302s;">
-                M
-            </text>
-            
-            <text x="585" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.9968055148079844s;">
-                3
-            </text>
-            
-            <text x="585" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.1468055148079843s;">
-                Y
-            </text>
-            
-            <text x="585" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.2968055148079844s;">
-                C
-            </text>
-            
-            <text x="585" y="65" fill="#2EA043" class="matrix-char" style="animation-delay: 1.4468055148079844s;">
-                D
-            </text>
-            
-            <text x="585" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.5968055148079845s;">
-                R
-            </text>
-            
-            <text x="585" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.7468055148079844s;">
-                9
-            </text>
-            
-            <text x="585" y="110" fill="#2EA043" class="matrix-char" style="animation-delay: 1.8968055148079843s;">
-                T
-            </text>
-            
-            <text x="600" y="20" fill="#2EA043" class="matrix-char" style="animation-delay: 1.243692550539139s;">
+            <text x="240" y="95" fill="#ffffff" class="matrix-char" style="opacity: 1.0; animation-delay: 1.2919908271280343s;">
                 F
             </text>
             
-            <text x="600" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.3936925505391389s;">
-                U
-            </text>
-            
-            <text x="600" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.543692550539139s;">
-                B
-            </text>
-            
-            <text x="600" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.693692550539139s;">
-                8
-            </text>
-            
-            <text x="600" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.843692550539139s;">
+            <text x="240" y="110" fill="#ffffff" class="matrix-char" style="opacity: 1.0; animation-delay: 1.3919908271280343s;">
                 3
             </text>
             
-            <text x="600" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.993692550539139s;">
-                8
-            </text>
-            
-            <text x="600" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.143692550539139s;">
-                E
-            </text>
-            
-            <text x="615" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.439591757173301s;">
-                2
-            </text>
-            
-            <text x="615" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.589591757173301s;">
-                4
-            </text>
-            
-            <text x="615" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.7395917571733011s;">
+            <text x="255" y="20" fill="#ffffff" class="matrix-char" style="opacity: 1.0; animation-delay: 1.431832116013172s;">
                 W
             </text>
             
-            <text x="615" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.889591757173301s;">
-                X
+            <text x="255" y="35" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 1.531832116013172s;">
+                J
             </text>
             
-            <text x="615" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.039591757173301s;">
-                1
-            </text>
-            
-            <text x="615" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.189591757173301s;">
-                E
-            </text>
-            
-            <text x="615" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.339591757173301s;">
-                K
-            </text>
-            
-            <text x="630" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.0514829635448764s;">
+            <text x="255" y="50" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.631832116013172s;">
                 H
             </text>
             
-            <text x="630" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.2014829635448763s;">
-                7
+            <text x="255" y="65" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.731832116013172s;">
+                0
             </text>
             
-            <text x="630" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.3514829635448764s;">
-                R
+            <text x="255" y="80" fill="#ffffff" class="matrix-char" style="opacity: 1.0; animation-delay: 1.8318321160131719s;">
+                V
             </text>
             
-            <text x="630" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.5014829635448763s;">
-                K
+            <text x="255" y="95" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 1.931832116013172s;">
+                Z
             </text>
             
-            <text x="630" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.6514829635448764s;">
-                U
-            </text>
-            
-            <text x="630" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.8014829635448764s;">
-                4
-            </text>
-            
-            <text x="630" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.9514829635448763s;">
-                K
-            </text>
-            
-            <text x="645" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.18341854750237863s;">
+            <text x="255" y="110" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 2.031832116013172s;">
                 G
             </text>
             
-            <text x="645" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.33341854750237865s;">
+            <text x="270" y="20" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.257221437869737s;">
+                G
+            </text>
+            
+            <text x="270" y="35" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.3572214378697371s;">
+                6
+            </text>
+            
+            <text x="270" y="50" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.457221437869737s;">
+                G
+            </text>
+            
+            <text x="270" y="65" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 1.557221437869737s;">
                 U
             </text>
             
-            <text x="645" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.4834185475023786s;">
-                L
+            <text x="270" y="80" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 1.6572214378697372s;">
+                X
             </text>
             
-            <text x="645" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.6334185475023786s;">
+            <text x="270" y="95" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 1.757221437869737s;">
+                1
+            </text>
+            
+            <text x="270" y="110" fill="#ffffff" class="matrix-char" style="opacity: 1.0; animation-delay: 1.8572214378697371s;">
+                C
+            </text>
+            
+            <text x="285" y="20" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 0.8146857927944957s;">
+                R
+            </text>
+            
+            <text x="285" y="35" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.9146857927944957s;">
+                I
+            </text>
+            
+            <text x="285" y="50" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.0146857927944957s;">
+                Q
+            </text>
+            
+            <text x="285" y="65" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.1146857927944958s;">
+                P
+            </text>
+            
+            <text x="285" y="80" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.2146857927944956s;">
+                0
+            </text>
+            
+            <text x="285" y="95" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.3146857927944957s;">
+                F
+            </text>
+            
+            <text x="285" y="110" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 1.4146857927944958s;">
+                2
+            </text>
+            
+            <text x="300" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.23247325973552657s;">
+                J
+            </text>
+            
+            <text x="300" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.33247325973552655s;">
+                Z
+            </text>
+            
+            <text x="300" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.4324732597355266s;">
+                G
+            </text>
+            
+            <text x="300" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.5324732597355266s;">
+                C
+            </text>
+            
+            <text x="300" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.6324732597355266s;">
+                B
+            </text>
+            
+            <text x="300" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.7324732597355266s;">
+                N
+            </text>
+            
+            <text x="300" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.8324732597355267s;">
+                0
+            </text>
+            
+            <text x="315" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.6981519778327612s;">
+                B
+            </text>
+            
+            <text x="315" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.7981519778327612s;">
+                P
+            </text>
+            
+            <text x="315" y="50" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.8981519778327611s;">
+                2
+            </text>
+            
+            <text x="315" y="65" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.9981519778327612s;">
+                E
+            </text>
+            
+            <text x="315" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.098151977832761s;">
+                O
+            </text>
+            
+            <text x="315" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.1981519778327612s;">
+                H
+            </text>
+            
+            <text x="315" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.2981519778327613s;">
+                7
+            </text>
+            
+            <text x="330" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.9611558893742869s;">
+                Z
+            </text>
+            
+            <text x="330" y="35" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.061155889374287s;">
+                T
+            </text>
+            
+            <text x="330" y="50" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.1611558893742868s;">
+                K
+            </text>
+            
+            <text x="330" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.261155889374287s;">
+                M
+            </text>
+            
+            <text x="330" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.3611558893742868s;">
+                T
+            </text>
+            
+            <text x="330" y="95" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.4611558893742869s;">
+                E
+            </text>
+            
+            <text x="330" y="110" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 1.561155889374287s;">
+                G
+            </text>
+            
+            <text x="345" y="20" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.8466439660344682s;">
+                K
+            </text>
+            
+            <text x="345" y="35" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 1.9466439660344683s;">
+                K
+            </text>
+            
+            <text x="345" y="50" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 2.0466439660344684s;">
+                K
+            </text>
+            
+            <text x="345" y="65" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 2.1466439660344685s;">
+                Y
+            </text>
+            
+            <text x="345" y="80" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 2.246643966034468s;">
+                0
+            </text>
+            
+            <text x="345" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.3466439660344682s;">
+                3
+            </text>
+            
+            <text x="345" y="110" fill="#ffffff" class="matrix-char" style="opacity: 1.0; animation-delay: 2.4466439660344683s;">
+                H
+            </text>
+            
+            <text x="360" y="20" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 0.4898554466440581s;">
+                W
+            </text>
+            
+            <text x="360" y="35" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.5898554466440581s;">
+                V
+            </text>
+            
+            <text x="360" y="50" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 0.6898554466440581s;">
+                D
+            </text>
+            
+            <text x="360" y="65" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.7898554466440582s;">
+                X
+            </text>
+            
+            <text x="360" y="80" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.8898554466440581s;">
+                J
+            </text>
+            
+            <text x="360" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.9898554466440581s;">
+                B
+            </text>
+            
+            <text x="360" y="110" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.0898554466440582s;">
+                O
+            </text>
+            
+            <text x="375" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.181145820972551s;">
+                H
+            </text>
+            
+            <text x="375" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.281145820972551s;">
+                4
+            </text>
+            
+            <text x="375" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.381145820972551s;">
+                3
+            </text>
+            
+            <text x="375" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.481145820972551s;">
+                N
+            </text>
+            
+            <text x="375" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.581145820972551s;">
+                G
+            </text>
+            
+            <text x="375" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.681145820972551s;">
+                J
+            </text>
+            
+            <text x="375" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.781145820972551s;">
+                0
+            </text>
+            
+            <text x="390" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.42485894800686586s;">
+                C
+            </text>
+            
+            <text x="390" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.5248589480068658s;">
+                U
+            </text>
+            
+            <text x="390" y="50" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.6248589480068658s;">
+                D
+            </text>
+            
+            <text x="390" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.7248589480068659s;">
+                N
+            </text>
+            
+            <text x="390" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.8248589480068659s;">
+                M
+            </text>
+            
+            <text x="390" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.9248589480068659s;">
+                O
+            </text>
+            
+            <text x="390" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.024858948006866s;">
+                D
+            </text>
+            
+            <text x="405" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.0328799353305067s;">
+                X
+            </text>
+            
+            <text x="405" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.1328799353305068s;">
+                R
+            </text>
+            
+            <text x="405" y="50" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.2328799353305067s;">
+                5
+            </text>
+            
+            <text x="405" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.3328799353305067s;">
+                7
+            </text>
+            
+            <text x="405" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.4328799353305066s;">
+                M
+            </text>
+            
+            <text x="405" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.5328799353305067s;">
+                8
+            </text>
+            
+            <text x="405" y="110" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.6328799353305068s;">
+                1
+            </text>
+            
+            <text x="420" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.3921737938158323s;">
+                U
+            </text>
+            
+            <text x="420" y="35" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.49217379381583226s;">
+                Z
+            </text>
+            
+            <text x="420" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.5921737938158322s;">
+                3
+            </text>
+            
+            <text x="420" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.6921737938158323s;">
+                I
+            </text>
+            
+            <text x="420" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.7921737938158323s;">
+                K
+            </text>
+            
+            <text x="420" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.8921737938158323s;">
+                N
+            </text>
+            
+            <text x="420" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.9921737938158324s;">
                 A
             </text>
             
-            <text x="645" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.7834185475023786s;">
-                S
-            </text>
-            
-            <text x="645" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.9334185475023786s;">
-                M
-            </text>
-            
-            <text x="645" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.0834185475023785s;">
-                4
-            </text>
-            
-            <text x="660" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.8441302012242387s;">
-                B
-            </text>
-            
-            <text x="660" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.9941302012242387s;">
-                M
-            </text>
-            
-            <text x="660" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.1441302012242387s;">
-                D
-            </text>
-            
-            <text x="660" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.2941302012242386s;">
-                W
-            </text>
-            
-            <text x="660" y="80" fill="#2EA043" class="matrix-char" style="animation-delay: 1.4441302012242385s;">
-                D
-            </text>
-            
-            <text x="660" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.5941302012242387s;">
-                P
-            </text>
-            
-            <text x="660" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.7441302012242386s;">
-                P
-            </text>
-            
-            <text x="675" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.1097081419033636s;">
-                H
-            </text>
-            
-            <text x="675" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.2597081419033636s;">
-                J
-            </text>
-            
-            <text x="675" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.4097081419033637s;">
-                S
-            </text>
-            
-            <text x="675" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.5597081419033636s;">
-                1
-            </text>
-            
-            <text x="675" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.7097081419033637s;">
-                7
-            </text>
-            
-            <text x="675" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.8597081419033636s;">
-                N
-            </text>
-            
-            <text x="675" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.0097081419033636s;">
-                6
-            </text>
-            
-            <text x="690" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.2631622644195235s;">
-                C
-            </text>
-            
-            <text x="690" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.41316226441952353s;">
-                S
-            </text>
-            
-            <text x="690" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.5631622644195236s;">
-                Y
-            </text>
-            
-            <text x="690" y="65" fill="#0D440D" class="matrix-char" style="animation-delay: 0.7131622644195235s;">
-                H
-            </text>
-            
-            <text x="690" y="80" fill="#2EA043" class="matrix-char" style="animation-delay: 0.8631622644195235s;">
-                U
-            </text>
-            
-            <text x="690" y="95" fill="#2EA043" class="matrix-char" style="animation-delay: 1.0131622644195235s;">
-                O
-            </text>
-            
-            <text x="690" y="110" fill="#2EA043" class="matrix-char" style="animation-delay: 1.1631622644195234s;">
-                K
-            </text>
-            
-            <text x="705" y="20" fill="#2EA043" class="matrix-char" style="animation-delay: 1.781159861612542s;">
-                R
-            </text>
-            
-            <text x="705" y="35" fill="#2EA043" class="matrix-char" style="animation-delay: 1.9311598616125418s;">
-                K
-            </text>
-            
-            <text x="705" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.0811598616125417s;">
-                7
-            </text>
-            
-            <text x="705" y="65" fill="#2EA043" class="matrix-char" style="animation-delay: 2.231159861612542s;">
-                5
-            </text>
-            
-            <text x="705" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.381159861612542s;">
-                E
-            </text>
-            
-            <text x="705" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.531159861612542s;">
-                P
-            </text>
-            
-            <text x="705" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.681159861612542s;">
-                7
-            </text>
-            
-            <text x="720" y="20" fill="#2EA043" class="matrix-char" style="animation-delay: 1.6901121680708788s;">
-                T
-            </text>
-            
-            <text x="720" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.8401121680708787s;">
-                W
-            </text>
-            
-            <text x="720" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.9901121680708789s;">
-                H
-            </text>
-            
-            <text x="720" y="65" fill="#2EA043" class="matrix-char" style="animation-delay: 2.140112168070879s;">
-                Q
-            </text>
-            
-            <text x="720" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.2901121680708787s;">
-                8
-            </text>
-            
-            <text x="720" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.440112168070879s;">
-                R
-            </text>
-            
-            <text x="720" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.5901121680708785s;">
-                M
-            </text>
-            
-            <text x="735" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.5402333797439702s;">
-                G
-            </text>
-            
-            <text x="735" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.6902333797439703s;">
-                B
-            </text>
-            
-            <text x="735" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.8402333797439703s;">
-                7
-            </text>
-            
-            <text x="735" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.9902333797439702s;">
-                0
-            </text>
-            
-            <text x="735" y="80" fill="#2EA043" class="matrix-char" style="animation-delay: 1.1402333797439703s;">
-                O
-            </text>
-            
-            <text x="735" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.2902333797439702s;">
-                I
-            </text>
-            
-            <text x="735" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.4402333797439701s;">
-                C
-            </text>
-            
-            <text x="750" y="20" fill="#2EA043" class="matrix-char" style="animation-delay: 1.3404593348448055s;">
-                T
-            </text>
-            
-            <text x="750" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.4904593348448054s;">
-                3
-            </text>
-            
-            <text x="750" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.6404593348448056s;">
-                9
-            </text>
-            
-            <text x="750" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.7904593348448055s;">
-                F
-            </text>
-            
-            <text x="750" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.9404593348448054s;">
-                3
-            </text>
-            
-            <text x="750" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.0904593348448053s;">
-                Z
-            </text>
-            
-            <text x="750" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 2.2404593348448056s;">
-                4
-            </text>
-            
-            <text x="765" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.44727999121654594s;">
-                R
-            </text>
-            
-            <text x="765" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.597279991216546s;">
-                I
-            </text>
-            
-            <text x="765" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.747279991216546s;">
-                R
-            </text>
-            
-            <text x="765" y="65" fill="#2EA043" class="matrix-char" style="animation-delay: 0.8972799912165459s;">
-                Y
-            </text>
-            
-            <text x="765" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.0472799912165458s;">
-                4
-            </text>
-            
-            <text x="765" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.197279991216546s;">
-                5
-            </text>
-            
-            <text x="765" y="110" fill="#2EA043" class="matrix-char" style="animation-delay: 1.3472799912165458s;">
-                7
-            </text>
-            
-            <text x="780" y="20" fill="#2EA043" class="matrix-char" style="animation-delay: 0.7602158963066521s;">
-                E
-            </text>
-            
-            <text x="780" y="35" fill="#2EA043" class="matrix-char" style="animation-delay: 0.9102158963066521s;">
-                R
-            </text>
-            
-            <text x="780" y="50" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.0602158963066521s;">
-                Z
-            </text>
-            
-            <text x="780" y="65" fill="#2EA043" class="matrix-char" style="animation-delay: 1.210215896306652s;">
-                U
-            </text>
-            
-            <text x="780" y="80" fill="#2EA043" class="matrix-char" style="animation-delay: 1.3602158963066522s;">
+            <text x="435" y="20" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.4966057375536301s;">
                 V
             </text>
             
-            <text x="780" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.510215896306652s;">
-                O
+            <text x="435" y="35" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.5966057375536302s;">
+                4
             </text>
             
-            <text x="780" y="110" fill="#1E6E1E" class="matrix-char" style="animation-delay: 1.660215896306652s;">
-                8
-            </text>
-            
-            <text x="795" y="20" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.24279937378492145s;">
-                9
-            </text>
-            
-            <text x="795" y="35" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.39279937378492147s;">
-                3
-            </text>
-            
-            <text x="795" y="50" fill="#2EA043" class="matrix-char" style="animation-delay: 0.5427993737849215s;">
-                H
-            </text>
-            
-            <text x="795" y="65" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.6927993737849214s;">
-                Q
-            </text>
-            
-            <text x="795" y="80" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.8427993737849214s;">
-                H
-            </text>
-            
-            <text x="795" y="95" fill="#1E6E1E" class="matrix-char" style="animation-delay: 0.9927993737849214s;">
+            <text x="435" y="50" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 1.69660573755363s;">
                 U
             </text>
             
-            <text x="795" y="110" fill="#2EA043" class="matrix-char" style="animation-delay: 1.1427993737849214s;">
+            <text x="435" y="65" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.7966057375536302s;">
+                H
+            </text>
+            
+            <text x="435" y="80" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.8966057375536303s;">
+                F
+            </text>
+            
+            <text x="435" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.9966057375536301s;">
+                X
+            </text>
+            
+            <text x="435" y="110" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 2.09660573755363s;">
+                E
+            </text>
+            
+            <text x="450" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.4285154011940049s;">
+                A
+            </text>
+            
+            <text x="450" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.5285154011940049s;">
                 0
+            </text>
+            
+            <text x="450" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.6285154011940048s;">
+                K
+            </text>
+            
+            <text x="450" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.7285154011940049s;">
+                O
+            </text>
+            
+            <text x="450" y="80" fill="#5ce66c" class="matrix-char" style="opacity: 1.0; animation-delay: 0.8285154011940049s;">
+                X
+            </text>
+            
+            <text x="450" y="95" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.9285154011940049s;">
+                Y
+            </text>
+            
+            <text x="450" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.028515401194005s;">
+                L
+            </text>
+            
+            <text x="465" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.4042053877122476s;">
+                G
+            </text>
+            
+            <text x="465" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.5042053877122477s;">
+                J
+            </text>
+            
+            <text x="465" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.6042053877122475s;">
+                C
+            </text>
+            
+            <text x="465" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.7042053877122476s;">
+                O
+            </text>
+            
+            <text x="465" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.8042053877122477s;">
+                7
+            </text>
+            
+            <text x="465" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.9042053877122476s;">
+                Q
+            </text>
+            
+            <text x="465" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.004205387712248s;">
+                Z
+            </text>
+            
+            <text x="480" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.9524981801207983s;">
+                6
+            </text>
+            
+            <text x="480" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.052498180120798s;">
+                W
+            </text>
+            
+            <text x="480" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.1524981801207983s;">
+                Z
+            </text>
+            
+            <text x="480" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.2524981801207984s;">
+                L
+            </text>
+            
+            <text x="480" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.3524981801207985s;">
+                O
+            </text>
+            
+            <text x="480" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.4524981801207986s;">
+                E
+            </text>
+            
+            <text x="480" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.552498180120798s;">
+                P
+            </text>
+            
+            <text x="495" y="20" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.6632741083125258s;">
+                7
+            </text>
+            
+            <text x="495" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.7632741083125257s;">
+                1
+            </text>
+            
+            <text x="495" y="50" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.8632741083125257s;">
+                Z
+            </text>
+            
+            <text x="495" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.9632741083125258s;">
+                Y
+            </text>
+            
+            <text x="495" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.063274108312526s;">
+                B
+            </text>
+            
+            <text x="495" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.1632741083125258s;">
+                E
+            </text>
+            
+            <text x="495" y="110" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.2632741083125258s;">
+                5
+            </text>
+            
+            <text x="510" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.3101746882097496s;">
+                J
+            </text>
+            
+            <text x="510" y="35" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.4101746882097497s;">
+                7
+            </text>
+            
+            <text x="510" y="50" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.5101746882097495s;">
+                A
+            </text>
+            
+            <text x="510" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.6101746882097496s;">
+                N
+            </text>
+            
+            <text x="510" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.7101746882097495s;">
+                7
+            </text>
+            
+            <text x="510" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.8101746882097496s;">
+                W
+            </text>
+            
+            <text x="510" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.9101746882097497s;">
+                F
+            </text>
+            
+            <text x="525" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.5205089812975348s;">
+                1
+            </text>
+            
+            <text x="525" y="35" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 0.6205089812975347s;">
+                0
+            </text>
+            
+            <text x="525" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.7205089812975347s;">
+                G
+            </text>
+            
+            <text x="525" y="65" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.8205089812975348s;">
+                2
+            </text>
+            
+            <text x="525" y="80" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 0.9205089812975348s;">
+                Q
+            </text>
+            
+            <text x="525" y="95" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 1.0205089812975348s;">
+                E
+            </text>
+            
+            <text x="525" y="110" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.1205089812975348s;">
+                T
+            </text>
+            
+            <text x="540" y="20" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 0.11333009757010482s;">
+                D
+            </text>
+            
+            <text x="540" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.21333009757010482s;">
+                X
+            </text>
+            
+            <text x="540" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.3133300975701048s;">
+                Y
+            </text>
+            
+            <text x="540" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.41333009757010486s;">
+                A
+            </text>
+            
+            <text x="540" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.5133300975701048s;">
+                N
+            </text>
+            
+            <text x="540" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.6133300975701048s;">
+                R
+            </text>
+            
+            <text x="540" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.7133300975701049s;">
+                8
+            </text>
+            
+            <text x="555" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.8635812993252503s;">
+                S
+            </text>
+            
+            <text x="555" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.9635812993252504s;">
+                U
+            </text>
+            
+            <text x="555" y="50" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 2.0635812993252505s;">
+                L
+            </text>
+            
+            <text x="555" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.1635812993252506s;">
+                X
+            </text>
+            
+            <text x="555" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.26358129932525s;">
+                7
+            </text>
+            
+            <text x="555" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.3635812993252503s;">
+                7
+            </text>
+            
+            <text x="555" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.4635812993252504s;">
+                D
+            </text>
+            
+            <text x="570" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.44715594923559543s;">
+                V
+            </text>
+            
+            <text x="570" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.5471559492355954s;">
+                1
+            </text>
+            
+            <text x="570" y="50" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 0.6471559492355954s;">
+                4
+            </text>
+            
+            <text x="570" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.7471559492355955s;">
+                U
+            </text>
+            
+            <text x="570" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.8471559492355955s;">
+                6
+            </text>
+            
+            <text x="570" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.9471559492355954s;">
+                M
+            </text>
+            
+            <text x="570" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.0471559492355955s;">
+                Y
+            </text>
+            
+            <text x="585" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.038101458968532675s;">
+                L
+            </text>
+            
+            <text x="585" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.13810145896853268s;">
+                N
+            </text>
+            
+            <text x="585" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.2381014589685327s;">
+                M
+            </text>
+            
+            <text x="585" y="65" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.3381014589685327s;">
+                C
+            </text>
+            
+            <text x="585" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.4381014589685327s;">
+                H
+            </text>
+            
+            <text x="585" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.5381014589685327s;">
+                3
+            </text>
+            
+            <text x="585" y="110" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.6381014589685328s;">
+                W
+            </text>
+            
+            <text x="600" y="20" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.9253347865012949s;">
+                C
+            </text>
+            
+            <text x="600" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.025334786501295s;">
+                N
+            </text>
+            
+            <text x="600" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.1253347865012948s;">
+                C
+            </text>
+            
+            <text x="600" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.225334786501295s;">
+                Y
+            </text>
+            
+            <text x="600" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.325334786501295s;">
+                8
+            </text>
+            
+            <text x="600" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.4253347865012949s;">
+                J
+            </text>
+            
+            <text x="600" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.525334786501295s;">
+                C
+            </text>
+            
+            <text x="615" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.7344560853906257s;">
+                M
+            </text>
+            
+            <text x="615" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.8344560853906258s;">
+                6
+            </text>
+            
+            <text x="615" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.9344560853906256s;">
+                V
+            </text>
+            
+            <text x="615" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.0344560853906257s;">
+                T
+            </text>
+            
+            <text x="615" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.134456085390626s;">
+                7
+            </text>
+            
+            <text x="615" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.234456085390626s;">
+                T
+            </text>
+            
+            <text x="615" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.3344560853906255s;">
+                Z
+            </text>
+            
+            <text x="630" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.9546121785494361s;">
+                J
+            </text>
+            
+            <text x="630" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.0546121785494362s;">
+                G
+            </text>
+            
+            <text x="630" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.154612178549436s;">
+                Y
+            </text>
+            
+            <text x="630" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.2546121785494362s;">
+                S
+            </text>
+            
+            <text x="630" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.354612178549436s;">
+                F
+            </text>
+            
+            <text x="630" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.4546121785494361s;">
+                3
+            </text>
+            
+            <text x="630" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.5546121785494362s;">
+                D
+            </text>
+            
+            <text x="645" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.8233680148470959s;">
+                G
+            </text>
+            
+            <text x="645" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.923368014847096s;">
+                5
+            </text>
+            
+            <text x="645" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.023368014847096s;">
+                6
+            </text>
+            
+            <text x="645" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.123368014847096s;">
+                M
+            </text>
+            
+            <text x="645" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.223368014847096s;">
+                6
+            </text>
+            
+            <text x="645" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.323368014847096s;">
+                T
+            </text>
+            
+            <text x="645" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.423368014847096s;">
+                V
+            </text>
+            
+            <text x="660" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.29146539795495796s;">
+                Z
+            </text>
+            
+            <text x="660" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.39146539795495794s;">
+                M
+            </text>
+            
+            <text x="660" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.49146539795495797s;">
+                S
+            </text>
+            
+            <text x="660" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.591465397954958s;">
+                P
+            </text>
+            
+            <text x="660" y="80" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.691465397954958s;">
+                L
+            </text>
+            
+            <text x="660" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.791465397954958s;">
+                0
+            </text>
+            
+            <text x="660" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.891465397954958s;">
+                A
+            </text>
+            
+            <text x="675" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.08006036107828396s;">
+                C
+            </text>
+            
+            <text x="675" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.18006036107828396s;">
+                7
+            </text>
+            
+            <text x="675" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.28006036107828397s;">
+                Q
+            </text>
+            
+            <text x="675" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.380060361078284s;">
+                5
+            </text>
+            
+            <text x="675" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.480060361078284s;">
+                Y
+            </text>
+            
+            <text x="675" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.580060361078284s;">
+                Q
+            </text>
+            
+            <text x="675" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.680060361078284s;">
+                0
+            </text>
+            
+            <text x="690" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.0294614226899965s;">
+                O
+            </text>
+            
+            <text x="690" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.1294614226899966s;">
+                U
+            </text>
+            
+            <text x="690" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.2294614226899965s;">
+                8
+            </text>
+            
+            <text x="690" y="65" fill="#1a5c1a" class="matrix-char" style="opacity: 1.0; animation-delay: 1.3294614226899966s;">
+                M
+            </text>
+            
+            <text x="690" y="80" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.4294614226899967s;">
+                3
+            </text>
+            
+            <text x="690" y="95" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.5294614226899965s;">
+                5
+            </text>
+            
+            <text x="690" y="110" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.6294614226899966s;">
+                7
+            </text>
+            
+            <text x="705" y="20" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.6573489377046278s;">
+                S
+            </text>
+            
+            <text x="705" y="35" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.7573489377046277s;">
+                7
+            </text>
+            
+            <text x="705" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.8573489377046277s;">
+                P
+            </text>
+            
+            <text x="705" y="65" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.9573489377046278s;">
+                V
+            </text>
+            
+            <text x="705" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.057348937704628s;">
+                E
+            </text>
+            
+            <text x="705" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.1573489377046278s;">
+                W
+            </text>
+            
+            <text x="705" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.2573489377046279s;">
+                D
+            </text>
+            
+            <text x="720" y="20" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.982258600606613s;">
+                G
+            </text>
+            
+            <text x="720" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.082258600606613s;">
+                S
+            </text>
+            
+            <text x="720" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.182258600606613s;">
+                O
+            </text>
+            
+            <text x="720" y="65" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.282258600606613s;">
+                T
+            </text>
+            
+            <text x="720" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.382258600606613s;">
+                O
+            </text>
+            
+            <text x="720" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.482258600606613s;">
+                K
+            </text>
+            
+            <text x="720" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.582258600606613s;">
+                9
+            </text>
+            
+            <text x="735" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.4090569741133483s;">
+                8
+            </text>
+            
+            <text x="735" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.5090569741133484s;">
+                W
+            </text>
+            
+            <text x="735" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.6090569741133482s;">
+                N
+            </text>
+            
+            <text x="735" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.7090569741133483s;">
+                7
+            </text>
+            
+            <text x="735" y="80" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.8090569741133482s;">
+                G
+            </text>
+            
+            <text x="735" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.9090569741133483s;">
+                5
+            </text>
+            
+            <text x="735" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.0090569741133484s;">
+                L
+            </text>
+            
+            <text x="750" y="20" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 0.06199206278322844s;">
+                4
+            </text>
+            
+            <text x="750" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.16199206278322845s;">
+                Y
+            </text>
+            
+            <text x="750" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.26199206278322845s;">
+                5
+            </text>
+            
+            <text x="750" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.3619920627832285s;">
+                F
+            </text>
+            
+            <text x="750" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.46199206278322846s;">
+                S
+            </text>
+            
+            <text x="750" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.5619920627832284s;">
+                2
+            </text>
+            
+            <text x="750" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 0.6619920627832285s;">
+                K
+            </text>
+            
+            <text x="765" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.8264129777875544s;">
+                6
+            </text>
+            
+            <text x="765" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.9264129777875545s;">
+                A
+            </text>
+            
+            <text x="765" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.0264129777875546s;">
+                C
+            </text>
+            
+            <text x="765" y="65" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 2.1264129777875542s;">
+                F
+            </text>
+            
+            <text x="765" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.2264129777875543s;">
+                6
+            </text>
+            
+            <text x="765" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.3264129777875544s;">
+                6
+            </text>
+            
+            <text x="765" y="110" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 2.4264129777875545s;">
+                5
+            </text>
+            
+            <text x="780" y="20" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.4892887513539919s;">
+                X
+            </text>
+            
+            <text x="780" y="35" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.589288751353992s;">
+                9
+            </text>
+            
+            <text x="780" y="50" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.6892887513539918s;">
+                0
+            </text>
+            
+            <text x="780" y="65" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.789288751353992s;">
+                U
+            </text>
+            
+            <text x="780" y="80" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.889288751353992s;">
+                J
+            </text>
+            
+            <text x="780" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.9892887513539919s;">
+                P
+            </text>
+            
+            <text x="780" y="110" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 2.089288751353992s;">
+                9
+            </text>
+            
+            <text x="795" y="20" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.0895295387326454s;">
+                6
+            </text>
+            
+            <text x="795" y="35" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.1895295387326454s;">
+                O
+            </text>
+            
+            <text x="795" y="50" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.2895295387326453s;">
+                W
+            </text>
+            
+            <text x="795" y="65" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.3895295387326454s;">
+                3
+            </text>
+            
+            <text x="795" y="80" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.4895295387326453s;">
+                K
+            </text>
+            
+            <text x="795" y="95" fill="#2ea043" class="matrix-char" style="opacity: 1.0; animation-delay: 1.5895295387326454s;">
+                1
+            </text>
+            
+            <text x="795" y="110" fill="#3fb950" class="matrix-char" style="opacity: 1.0; animation-delay: 1.6895295387326454s;">
+                R
             </text>
             </svg>
