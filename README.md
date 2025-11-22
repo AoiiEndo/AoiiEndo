@@ -44,10 +44,4 @@
   <br>
 
   <img src="https://streak-stats.demolab.com?user=AoiiEndo&hide_border=true&background=0D1117&ring=00FF00&fire=00FF00&currStreakLabel=00FF00&currStreakNum=FFFFFF&sideLabels=00FF00&sideNums=FFFFFF&dates=FFFFFF&date_format=Y%2Fm%2Fd" alt="streak stats" />
-
-  <br>
-
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=AoiiEndo&theme=git_dark&no-frame=true&margin-w=15&margin-h=15" alt="trophies" />
-  </a>
 </div>
