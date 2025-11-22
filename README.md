@@ -1,3 +1,7 @@
+<div align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=800&color=00FF00&background=00000000&vCenter=true&width=435&lines=System+Boot...;User:+Aoi+Endo;Loading+Skills...;Laravel,+Next.js,+Unity,+AWS,+SQL...;Access+Granted." alt="Typing SVG" />
+</div>
+
 ![Matrix Contributions](https://github.com/AoiiEndo/AoiiEndo/blob/main/dist/github-matrix.svg?raw=true)
 
 ## Tech Stack
@@ -44,4 +48,12 @@
   <br>
 
   <img src="https://streak-stats.demolab.com?user=AoiiEndo&hide_border=true&background=0D1117&ring=00FF00&fire=00FF00&currStreakLabel=00FF00&currStreakNum=FFFFFF&sideLabels=00FF00&sideNums=FFFFFF&dates=FFFFFF&date_format=Y%2Fm%2Fd" alt="streak stats" />
+</div>
+
+## Featured Projects
+
+<div align="center">
+  <a href="https://github.com/AoiiEndo/Interpretor">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=AoiiEndo&repo=Interpretor&bg_color=0d1117&title_color=00ff00&text_color=ffffff&icon_color=00ff00&border_color=00ff00" alt="Repo1" />
+  </a>
 </div>
